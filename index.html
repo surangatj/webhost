@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Chat</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f0f0;
+        }
+        .logo {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+        .chat-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .chat-iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://st4.depositphotos.com/20523700/25947/i/450/depositphotos_259477098-stock-photo-illustration-bank-icon.jpg" alt="Bank Logo" class="logo">
+    <div class="chat-container">
+        <iframe src="https://copilotstudio.microsoft.com/environments/Default-2540d87a-8a0d-43bf-b61d-83bfc5fbd9fd/bots/cr145_swissBankHrCopilot/webchat?__version__=2" class="chat-iframe"></iframe>
+    </div>
+</body>
+</html>
